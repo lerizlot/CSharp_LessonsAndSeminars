@@ -1,4 +1,4 @@
-﻿void FillArray(int[] collection)
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
@@ -46,3 +46,5 @@ Console.WriteLine();
 
 int pos = IndexOf(array, 2);
 Console.WriteLine(pos);
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
