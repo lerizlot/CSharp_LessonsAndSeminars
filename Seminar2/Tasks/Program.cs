@@ -47,7 +47,7 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input number two: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-if (Sqrt(num1, num2))
+if (Square(num1, num2))
     Console.WriteLine("One of the numbers is the square of the other number");
 else
     Console.WriteLine("None of the numbers is the square of another number");
